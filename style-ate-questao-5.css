@@ -1,0 +1,83 @@
+div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(13, 129, 9);
+    margin-right: 1rem;
+    color: rgb(76, 255, 69);
+    background-color: transparent;
+    border: 1px solid rgb(76, 255, 69);
+    font-weight: bold;
+  }
+
+
+  div:first-child:hover span:nth-child(1) {
+    background-color: red;
+  }
+  
+
+  div:nth-child(2):hover span:nth-child(6) {
+    background-color: green;
+  }
+  
+
+  div:nth-child(3):hover span:nth-child(2) {
+    background-color: blue;
+  }
+  
+
+  div:nth-child(4):hover span:nth-child(5) {
+    background-color: pink;
+  }
+  
+
+  div:nth-child(5):hover span:nth-child(1),
+  div:nth-child(5):hover span:nth-child(3),
+  div:nth-child(5):hover span:nth-child(5) {
+    background-color: yellow;
+  }
+  
+
+  div:nth-child(6):hover span:nth-child(2n) {
+    background-color: orange;
+  }
+  
+
+  div:nth-child(7):hover span:nth-child(4) {
+    background-color: pink;
+  }
+  
+
+  div:nth-child(8):hover span:nth-child(3),
+  div:nth-child(8):hover span:nth-child(5) {
+    background-color: maroon;
+  }
+  
+ 
+  div:nth-child(9):hover span:nth-child(1),
+  div:nth-child(9):hover span:nth-child(4) {
+    background-color: gray;
+  }
+  
+
+  div:nth-child(10):hover span:nth-child(4),
+  div:nth-child(10):hover span:nth-child(5),
+  div:nth-child(10):hover span:nth-child(6) {
+    background-color: purple;
+  }
+  
+  
+
+  body {
+    background-color: black;
+  }
+  
