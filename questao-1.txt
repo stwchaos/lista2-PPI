@@ -10,9 +10,6 @@ vermelho - A cor vermelha foi aplicada pois logo no head, foi definido que a cor
 
 
 
-
-
-
 preto - a cor preta foi definida pois na própria linha de código foi definida a cor
 <p Style="color: black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo deleniti in voluptas vero obcaecati officiis ipsa nisi hic amet? Quibusdam minus, voluptatum sit alias repudiandae dolores et pariatur nisi!</p>
    
