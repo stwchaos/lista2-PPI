@@ -1,0 +1,10 @@
+ol {
+    list-style: none;
+}
+
+header p:first-child {
+    font-size: 36px; 
+    text-shadow: 2px 2px #c01515; 
+    text-align: center;
+  }
+  

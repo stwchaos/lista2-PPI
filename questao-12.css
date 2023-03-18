@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: transform 0.5s ease;
+  }
+  .container .square:nth-child(1) {
+    background-color: #ADD8E6;
+  }
+  
+  .container .square:nth-child(2) {
+    background-color: #F0E68C;
+  }
+  
+  .container .square:nth-child(3) {
+    background-color: #FFA07A;
+  }  
+  
+  .square:hover {
+    transform: rotate(360deg);
+  }
+
+  body {
+    background-color: black;
+  }
+  

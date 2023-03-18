@@ -1,0 +1,47 @@
+Questão 1 -
+
+vermelho - A cor vermelha foi aplicada pois logo no head, foi definido que a cor deveria ser vermelha através do código  
+ 
+    <style>
+        p{
+            color: red;
+        }
+    </style>
+
+
+
+
+
+
+preto - a cor preta foi definida pois na própria linha de código foi definida a cor
+<p Style="color: black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo deleniti in voluptas vero obcaecati officiis ipsa nisi hic amet? Quibusdam minus, voluptatum sit alias repudiandae dolores et pariatur nisi!</p>
+   
+
+
+azul - a cor azul foi atribuída pois na linha de código do documento css, com o id “p3” foi atribuída a cor azul.
+#p3 {
+    color: blue;
+}
+
+
+amarelo - a cor amarela foi atribuída pois na linha de código do css foi definido através da classe “class1” a cor amarela.
+.class1 {
+    color: yellow;
+}
+
+
+laranja - a cor laranja fi atribuida pois na linha de código do css através do id “p3” E da classe “class1” que  cor seria laranja.
+#p3.class1 {
+    color: orange;
+}
+
+
+vermelho - A cor vermelha foi aplicada pois logo no head, foi definido que a cor deveria ser vermelha através do código  
+    <style>
+        p{
+            color: red;
+        }
+    </style>
+
+
+
